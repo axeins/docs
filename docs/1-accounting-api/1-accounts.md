@@ -24,7 +24,7 @@ The schema of an account is as follows:
 }
 ```
 
-You can access you accounts by performing a `GET` request against the following endpoint:
+You can access your accounts by performing a `GET` request against the following endpoint:
 
 ```
 https://app.ax1.ai/api/alpha/accounts/<account>/accounting/<year>/accounts
@@ -57,7 +57,7 @@ The request will return an array of accounts, e.g.:
 ]
 ```
 
-Here is a full example using `curl`:
+Here is a full example of a request using `curl`:
 
 ```bash
 curl \

@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "AX1 Developer Docs",
+  title: "Welcome 👋",
   tagline: "Germany's first API-enabled accountant",
   favicon: "img/favicon.ico",
 
