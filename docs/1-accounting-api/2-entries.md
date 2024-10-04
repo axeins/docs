@@ -19,12 +19,12 @@ The schema of an entry is as follows:
   "recordDate": "2024-04-12",
   "deliveryDate": null,
   "date": "2024-04-12",
-  "amount": 132.30,
+  "amount": 132.3,
   "isOpeningBalance": false,
   "isGeneralReversal": false,
   "description": "Trackpad purchase",
   "costCenter": "303"
-};
+}
 ```
 
 You can access your accounting entries by performing a `GET` request against the following endpoint:
