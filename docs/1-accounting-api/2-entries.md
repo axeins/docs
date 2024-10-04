@@ -27,7 +27,7 @@ The schema of an entry is as follows:
 };
 ```
 
-You can access your accounting antries by performing a `GET` request against the following endpoint:
+You can access your accounting entries by performing a `GET` request against the following endpoint:
 
 ```
 https://app.ax1.ai/api/alpha/accounts/<account>/accounting/<year>/entries
