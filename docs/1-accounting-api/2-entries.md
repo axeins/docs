@@ -14,16 +14,27 @@ The schema of an entry is as follows:
 
 ```json
 {
-  "creditAccount": 12345,
-  "debitAccount": 54321,
-  "recordDate": "2024-04-12",
+  "id": "8c3460e9-6126-4ae9-8dc6-7aa18b9e3742",
+  "client": 12345,
+  "year": 2024,
+  "type": "debit",
+  "reason": null,
+  "account": 16000000,
+  "contraAccount": 12100000,
+  "recordDate": "2025-01-02",
   "deliveryDate": null,
-  "date": "2024-04-12",
-  "amount": 132.3,
-  "isOpeningBalance": false,
+  "date": "2025-01-02",
   "isGeneralReversal": false,
-  "description": "Trackpad purchase",
-  "costCenter": "303"
+  "isOpeningBalance": false,
+  "amount": 194.28,
+  "currency": "EUR",
+  "description": "RETOOL",
+  "costCenter1": "302",
+  "costCenter2": null,
+  "invoiceNr": "C802CAFE-0078",
+  "receiptNr": null,
+  "batch": "01-2024/0004",
+  "correlations": []
 }
 ```
 
@@ -38,18 +49,20 @@ The request will return an array of entries, e.g.:
 ```json
 [
   {
-    "creditAccount": 12345,
-    "debitAccount": 54321,
-    "recordDate": "2024-04-12",
-    "deliveryDate": null,
-    "date": "2024-04-12",
-    "amount": 132.3,
-    "isOpeningBalance": false,
-    "isGeneralReversal": false,
-    "description": "Trackpad purchase",
-    "costCenter": "303"
+    "id": "8c3460e9-6126-4ae9-8dc6-7aa18b9e3742",
+    "client": 12345,
+    "year": 2024,
+    "type": "debit",
+    // ...
   },
   {
+  {
+    "id": "d2a1134a-99ce-4d62-9b40-b66c829a162b",
+    "client": 12345,
+    "year": 2024,
+    "type": "credit",
+    // ...
+  },
     // ...
   }
 ]
