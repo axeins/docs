@@ -33,6 +33,7 @@ The schema of an entry is as follows:
   "costCenter2": null,
   "invoiceNr": "C802CAFE-0078",
   "receiptNr": null,
+  "note": "Our internal tools",
   "batch": "01-2024/0004",
   "correlations": []
 }
