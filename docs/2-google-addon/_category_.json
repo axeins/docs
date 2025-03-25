@@ -1,0 +1,8 @@
+{
+  "label": "Google Add-On",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Access live accounting data directly from your google sheet"
+  }
+}
